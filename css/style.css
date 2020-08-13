@@ -8,11 +8,24 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color:rgb(44, 173, 61);
+    background-color:rgb(149, 16, 161);
     font-family: 'Poppins', sans-serif;
 }
 .logo {
     color: rgb(212, 209, 209);
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+.links {
+    display: inline-block
+
+}
+.links li{
+    list-style: none;
+}
+.links a{
+    color: rgb(212, 209, 209);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
 }
