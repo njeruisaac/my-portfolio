@@ -29,3 +29,20 @@ nav{
     letter-spacing: 3px;
     font-weight: bold;
 }
+img {
+    float: left;
+}
+.high{
+    color: tomato;
+    text-decoration: underline;
+    text-align: center;
+}
+.low {
+    color:gold;
+    text-decoration: underline;
+    text-align: center;
+}
+.list {
+    color: brown;
+    list-style-type: disc;
+}
