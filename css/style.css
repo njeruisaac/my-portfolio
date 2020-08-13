@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color:rgb(44, 173, 61);
+    font-family: 'Poppins', sans-serif;
+}
+.logo {
+    color: rgb(212, 209, 209);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
