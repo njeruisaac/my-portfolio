@@ -3,6 +3,10 @@
     padding: 0px;
     box-sizing:border-box ;
 }
+h1 {
+    text-align: center;
+    color: gold;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -10,6 +14,7 @@ nav{
     min-height: 8vh;
     background-color:rgb(149, 16, 161);
     font-family: 'Poppins', sans-serif;
+
 }
 .logo {
     color: rgb(212, 209, 209);
@@ -32,17 +37,20 @@ nav{
 img {
     float: left;
 }
-.high{
-    color: tomato;
-    text-decoration: underline;
-    text-align: center;
-}
 .low {
-    color:gold;
+    color : blue;
     text-decoration: underline;
-    text-align: center;
+    text-align: left;
 }
 .list {
-    color: brown;
-    list-style-type: disc;
+    color: turquoise;
+    list-style-type: none;
+}
+body {
+    justify-content: space-around;
+    background-image: url(../images/IMG-20190410-WA0027.jpg);
+    background-size: cover;
+}
+.list {
+    text-align: right;
 }
