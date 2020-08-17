@@ -14,7 +14,11 @@ nav{
     min-height: 8vh;
     background-color:rgb(149, 16, 161);
     font-family: 'Poppins', sans-serif;
+    display: flex;
+}
 
+#navbar li a:hover{
+    background-color: #df9bce;
 }
 .logo {
     color: rgb(212, 209, 209);
